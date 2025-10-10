@@ -2578,7 +2578,7 @@ figure.highlight pre .javascript .function {
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
-  background: rgba(255,255,255,0.1) !important;
+  background: rgba(255,255,255,0.3) !important;
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
   border: 1px solid rgba(255,255,255,0.2);
@@ -3405,10 +3405,12 @@ figure.highlight pre .javascript .function {
   overflow: hidden;
   margin-bottom: 20px;
   padding: 20px 24px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
 }
 #aside-content .card-info .author-info-name {
   font-weight: 500;
@@ -4258,7 +4260,7 @@ figure.highlight pre .javascript .function {
   display: block;
 }
 [data-theme="dark"] #footer {
-  background: rgba(0,0,0,0.4) !important;
+  background: rgba(255,255,255,0.1) !important;
 }
 #page-header {
   position: relative;
