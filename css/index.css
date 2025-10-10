@@ -4161,6 +4161,10 @@ figure.highlight pre .javascript .function {
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
+/* 添加毛玻璃效果 */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.3) !important;
 }
 #footer > * {
   position: relative;
@@ -4252,6 +4256,9 @@ figure.highlight pre .javascript .function {
 }
 #footer .footer-other .framework-info {
   display: block;
+}
+[data-theme="dark"] #footer {
+  background: rgba(0,0,0,0.4) !important;
 }
 #page-header {
   position: relative;
