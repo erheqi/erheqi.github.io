@@ -8,7 +8,7 @@
     <meta name="author" content="ERLI">
     <meta name="renderer" content="webkit">
     <meta name="copyright" content="ERLI">
-        <meta name="keywords" content="blog,tech,hexo,macOS,备份">
+        <meta name="keywords" content="blog,tech,hexo,macOS,开发,备份">
     <meta name="description" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="Bebebebede Blog">
@@ -20,7 +20,7 @@
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="icon" href="/assets/favicon.ico">
-    <title>Bebebebede Blog</title>
+    <title>ERLI&#39;s Blog</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -228,13 +228,13 @@
         </span>
         <!-- back to home page text -->
         <span class="home-link header-element">
-            <a href="/">Bebebebede Blog</a>
+            <a href="/">ERLI's Blog</a>
         </span>
     </div>
     <!-- toggle banner -->
     <div class="banner">
         <div class="blog-title header-element">
-            <a href="/">Bebebebede Blog</a>
+            <a href="/">ERLI&#39;s Blog</a>
         </div>
         <div class="post-title header-element">
             <a href="#" class="post-name"></a>
@@ -399,27 +399,228 @@
                 <main class="main index-page">
             
         <article class="index-post">
-            <a class="abstract-title" href="/2026/10/10/Hexo-%E5%86%99%E4%BD%9C%E4%B8%8E%E6%BA%90%E7%A0%81%E5%A4%87%E4%BB%BD%E7%9A%84%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B/">
-                <span class="abstract-title-text">Hexo 写作与源码备份的完整流程</span>
+            <a class="abstract-title" href="/2026/10/11/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E6%97%A5%E5%BF%97%EF%BC%9A%E4%BB%8E0%E5%88%B0%E7%A8%B3%E5%AE%9A%E5%8F%91%E5%B8%83/">
+                <span class="abstract-title-text">博客折腾日志：从 0 到稳定发布</span>
             </a>
             <div class="abstract-content">
-                这篇是写给以后的自己：怎么写文章、怎么发布、怎么避免再丢源码。
-日常写作流程123456789101112cd ~/Documents/myblog# 1. 新建文章，生成 source/_posts/标题.mdhexo new &quot;文章标题&quot;# 2. 用 VS Code 编辑 md 文件# 3. 本地预览：http://localhost:4000hexo s# 4. 清理、生成、部署hexo clean &amp;&amp; hexo g -d
+                做博客最容易陷入的状态，是：一开始想法很多，后来被主题、部署、配置、插件和文章内容分散精力。其实博客最重要的最终状态不是“花里胡哨”，而是“能持续发布”。
+1. 开始之前先想清楚用途我开始做博客时，心里其实没有特别复杂的想法：
 
-文章顶部的 front-matter 示例：
-12345678---title: 文章标题date: 2026-10-1...
+我想记录一些学习和实践
+我想留下踩坑记录
+我想把自己做过的东西保留下来
+
+这就足够了。博客的意义不一定要非常“深刻”，只要你...
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/10">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/10</span>
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
                 </div>
                 <!-- tags -->
                     <div class="abstract-tags" >
-        <a class="post-tag" href="javascript:void(0);" data-tags="Hexo">Hexo</a>
+        <span class="post-category" data-categories="日常">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                日常
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="博客">博客</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="维护">维护</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="折腾">折腾</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2026/10/11/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%86%99%E4%BD%9C%EF%BC%9A%E6%8A%8A%E6%83%B3%E6%B3%95%E5%8F%98%E6%88%90%E6%96%87%E7%AB%A0/">
+                <span class="abstract-title-text">程序员写作：把想法变成文章</span>
+            </a>
+            <div class="abstract-content">
+                很多程序员会觉得“我会写代码，就不会写文章”。其实写文章并不等于写小说，它更像把思考梳理出来，并让别人看懂。
+1. 写作的核心不是文采，而是结构一篇好的技术文章，最重要的不是词汇华丽，而是结构清楚。通常可以按下面的顺序来：
+
+先说问题
+再说背景
+再说解决方法
+最后说结论和经验
+
+如果没有结构，内容再多也容易变成一堆碎片。
+2. 先写“真实问题”，不要一...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="写作">写作</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="个人成长">个人成长</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="学习">学习</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2026/10/11/Obsidian-%E5%8A%A0-Git%EF%BC%9A%E8%BD%BB%E9%87%8F%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA/">
+                <span class="abstract-title-text">Obsidian 加 Git：轻量知识库搭建</span>
+            </a>
+            <div class="abstract-content">
+                我一直偏爱轻量的知识管理方案。对我而言，Obsidian + Git 很像“记事本 + 版本控制”。它不复杂，但非常适合长期积累。
+1. 为什么我喜欢 ObsidianObsidian 最大的好处是：
+
+纯本地文件
+Markdown 语法友好
+链接关系清晰
+标签、图谱和双链都支持
+
+如果你经常整理学习笔记、写文章、记录问题，这种方式会比云文档更稳定。
+...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Git">Git</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Obsidian">Obsidian</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="知识库">知识库</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2026/10/11/Node-js-%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%AE%9E%E8%B7%B5/">
+                <span class="abstract-title-text">Node.js 版本管理实践</span>
+            </a>
+            <div class="abstract-content">
+                前端项目和 Node 相关工具越来越多，所以版本管理已经不再是“可选项”，而是开发基础设施的一部分。最实用的做法是使用 nvm 之类的版本管理器，而不是直接装一个全局版本。
+1. 为什么要做版本管理很多项目会遇到这样的情况：
+
+一个项目依赖 Node 16
+另一个项目依赖 Node 18
+另一套工具又要求更高版本
+
+如果全局装了一个版本，很快就会出现“...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Node.js">Node.js</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="nvm">nvm</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="JavaScript">JavaScript</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2026/10/11/%E5%89%8D%E7%AB%AF%E8%B0%83%E8%AF%95%E6%B8%85%E5%8D%95%EF%BC%9A%E4%BB%8E%E6%8A%A5%E9%94%99%E5%88%B0%E4%BF%AE%E5%A4%8D/">
+                <span class="abstract-title-text">前端调试清单：从报错到修复</span>
+            </a>
+            <div class="abstract-content">
+                前端调试看似“很杂”，但实际上很有套路。很多问题不是代码错得特别离谱，而是你没有按顺序排查。这篇文章记录一套比较实用的排错清单。
+1. 先确认报错是不是源头很多前端问题的根因并不在你以为的那一层。比如：
+
+API 返回值不符合预期
+脚本加载顺序有问题
+组件状态没有及时更新
+样式覆盖导致点击失效
+
+遇到异常时，第一步不是急着改代码，而是先问：问题在渲染层...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="JavaScript">JavaScript</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="前端">前端</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="调试">调试</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2026/10/11/%E5%A4%87%E4%BB%BD%E6%96%B9%E6%A1%88%EF%BC%9AGit-%E5%8A%A0-%E4%BA%91%E7%9B%98%E7%9A%84%E5%AE%9E%E7%94%A8%E7%BB%84%E5%90%88/">
+                <span class="abstract-title-text">备份方案：Git 加云盘的实用组合</span>
+            </a>
+            <div class="abstract-content">
+                工作和写作都会产生大量“重要但看起来不重要”的文件。我的经验是：不靠单一媒介保存，而是分层备份。对我来说，最适合的方案是 Git + 云盘。
+1. Git 解决版本问题第一层是 Git。它能解决：
+
+文章修改历史
+文件误删后的恢复
+多版本对比
+个人文档追踪
+
+如果你写博客、写文档、维护项目，Git 对你来说几乎是一种“最小化的时间旅行”。
+2. 云盘解...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
         <a class="post-tag" href="javascript:void(0);" data-tags="GitHub">GitHub</a>
         <a class="post-tag" href="javascript:void(0);" data-tags="备份">备份</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="云盘">云盘</a>
 </div>
 
             </div>
@@ -427,29 +628,31 @@
         <div class="index-post-divider"></div>
             
         <article class="index-post">
-            <a class="abstract-title" href="/2026/10/10/Mac-%E4%B8%8A%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA-Hexo/">
-                <span class="abstract-title-text">Mac 上从零搭建 Hexo + Butterfly 主题：踩坑全记录</span>
+            <a class="abstract-title" href="/2026/10/11/%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%B8%8E-alias-%E5%AE%9E%E6%88%98/">
+                <span class="abstract-title-text">终端配置与 alias 实战</span>
             </a>
             <div class="abstract-content">
-                这篇记录我在一台 Mac 上从零重新搭建 Hexo 博客的过程，以及一路遇到的问题。
-1. 安装 Git第一次运行 git 时，终端提示：
-1xcode-select: note: no developer tools were found ...
-
-这是 Mac 在要求安装”命令行开发者工具”。在弹出的窗口里点安装（不要点”获取 Xcode”），装完后重开终端，用 git --version 验证。弹窗没出现就运行 xcode-select --install。
-2. 安装 Node.js到 nodejs.org 下载 LTS 版本的安装包，装完重开终端：
-12node -vnpm -...
+                如果你每天都在 Mac 或 Linux 上工作，终端的效率很大程度上决定了你对命令行的接受程度。我一直觉得，alias 和 shell 配置不是炫技，而是让你少打字、少重复操作的基础能力。
+1. 先从最常用的 alias 开始通常我会在 ~/.zshrc 里面添加一批自己常用的缩写，例如：
+12345alias ll=&#x27;ls -al&#x27...
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/10">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/10</span>
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
                 </div>
                 <!-- tags -->
                     <div class="abstract-tags" >
-        <a class="post-tag" href="javascript:void(0);" data-tags="Hexo">Hexo</a>
-        <a class="post-tag" href="javascript:void(0);" data-tags="Butterfly">Butterfly</a>
-        <a class="post-tag" href="javascript:void(0);" data-tags="macOS">macOS</a>
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Shell">Shell</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="zsh">zsh</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="命令行">命令行</a>
 </div>
 
             </div>
@@ -457,44 +660,71 @@
         <div class="index-post-divider"></div>
             
         <article class="index-post">
-            <a class="abstract-title" href="/2026/10/10/%E8%AF%AF%E5%88%A0-Hexo-%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E5%90%8E%EF%BC%8C%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E8%87%AA%E6%95%91%E7%9A%84/">
-                <span class="abstract-title-text">误删 Hexo 博客源码后，我是怎么自救的</span>
+            <a class="abstract-title" href="/2026/10/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%BB%8E0%E5%88%B01%E7%9A%84%E5%86%99%E4%BD%9C%E6%B5%81%E7%A8%8B/">
+                <span class="abstract-title-text">个人博客从 0 到 1 的写作流程</span>
             </a>
             <div class="abstract-content">
-                我不小心删掉了本地的 Hexo 博客文件夹，但线上网站还能正常访问。这篇文章记录当时的判断过程。
-先搞清楚：线上网站和源码是两回事hexo deploy 推送到 GitHub 的，只是生成后的静态网页（html、css、js），不是源码。
+                一个博客最难的部分，不是搭建，而是持续写作。很多人做了一个站点，却没办法长期输出内容。我的经验是：写作流程应该尽量简单、稳定、可重复。
+1. 先确定内容方向很多人写博客的时候，最容易犯的错误是“写得太散”。写作方向最好尽量明确，例如：
 
+技术踩坑记录
+Mac 环境配置
+Git 和开发工具
+个人学习积累
+站点维护与主题调整
 
-
-内容
-位置
-作用
-
-
-
-静态网页
-GitHub 的 master 分支
-被 GitHub Pages 托管，线上显示
-
-
-源码（source/_posts、_config.yml、themes）
-只在本地
-用来写文章、生成网页
-
-
-所以博客现在正常显示，并不代表源码还在。
-怎么判断源码有没有备份在 GitHub 仓库页面看分支列表，逐个点进去，检...
+明确方向之后，后续写作就会更...
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/10">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/10</span>
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
                 </div>
                 <!-- tags -->
                     <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
         <a class="post-tag" href="javascript:void(0);" data-tags="Hexo">Hexo</a>
-        <a class="post-tag" href="javascript:void(0);" data-tags="GitHub">GitHub</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="博客">博客</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="写作">写作</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2026/10/11/Hexo-%E4%B8%BB%E9%A2%98%E5%AE%9A%E5%88%B6%E8%B8%A9%E5%9D%91%E5%BD%95/">
+                <span class="abstract-title-text">Hexo 主题定制踩坑录</span>
+            </a>
+            <div class="abstract-content">
+                很多时候，Hexo 主题看起来“很简单”，但一旦开始定制，要处理的细节其实不少。我的经验是：不要一上来就改 CSS，而要先确认主题结构、模板和配置加载顺序。
+1. 先确认主题是否正确安装最常见的问题不是样式问题，而是主题没有真正生效。比如：
+1theme: archer
+
+如果配置写错，Hexo 会继续用默认主题，页面也就不会按预期显示。这个问题看起来...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Hexo">Hexo</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="主题">主题</a>
         <a class="post-tag" href="javascript:void(0);" data-tags="踩坑">踩坑</a>
 </div>
 
@@ -503,60 +733,47 @@ GitHub 的 master 分支
         <div class="index-post-divider"></div>
             
         <article class="index-post">
-            <a class="abstract-title" href="/2026/10/10/%E6%88%91%E7%9A%84%E7%AC%AC8%E7%AF%87%E6%96%87%E7%AB%A0/">
-                <span class="abstract-title-text">我的第8篇文章</span>
+            <a class="abstract-title" href="/2026/10/11/VS-Code-%E8%AE%A9%E5%86%99%E4%BB%A3%E7%A0%81%E6%9B%B4%E8%88%92%E6%9C%8D/">
+                <span class="abstract-title-text">VS Code 让写代码更舒服</span>
             </a>
             <div class="abstract-content">
-                今天是 2026 年 10 月 10 日，我把博客重新搭了起来。
-起因之前的博客源码文件夹被我误删了，线上的网站虽然还在，但没法再写新文章。好在 GitHub 上保留着生成后的网页，我花了一个晚上，从头把环境搭了一遍：
+                我一直觉得，好的编辑器不是“功能很多”，而是“能让你少做重复动作”。VS Code 在这方面做得还不错，而且它的扩展生态很强，所以很容易形成自己的高效工作流。
+1. 先把基础体验调好很多人一上来就装很多插件，但其实最重要的几件事是：
 
-安装 Node.js
-安装 Hexo 和 Butterfly 主题
-修复了几个小问题
+设置字体和字号
+打开自动保存
+启用代码格式化
+关闭不需要的侧边栏干扰
+配置常用快捷键
 
-踩过的坑
-权限问题：全局安装时遇到 EACCES，原因是 npm 缓存目录里有 root 权限的文件。
-主题名拼错：把 butterfly 写成了 lbutterfly，结果页面一片空白，只提示 No layout。
-端口被占用：旧的 hexo s 进程没有关，导致 4000 端口无...
+如果你每天都写代码，编辑器的视...
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/10">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/10</span>
+                <div class="abstract-date" title="Last updated: 2026/10/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/11</span>
                 </div>
                 <!-- tags -->
                     <div class="abstract-tags" >
-        <a class="post-tag" href="javascript:void(0);" data-tags="随笔">随笔</a>
-        <a class="post-tag" href="javascript:void(0);" data-tags="博客">博客</a>
+        <span class="post-category" data-categories="技术笔记">
+            <i class="fas fa-folder post-category-icon"></i>
+            <span class="post-category-text">
+                技术笔记
+            </span>
+        </span>
+        <a class="post-tag" href="javascript:void(0);" data-tags="VS Code">VS Code</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="编辑器">编辑器</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="提效">提效</a>
 </div>
 
             </div>
         </article>
         <div class="index-post-divider"></div>
-            
-        <article class="index-post">
-            <a class="abstract-title" href="/2026/10/10/hello-world/">
-                <span class="abstract-title-text">Hello World</span>
-            </a>
-            <div class="abstract-content">
-                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
-
-More info: Writing
-Run server1$ hexo ...
-            </div>
-            <!-- read more -->
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/10">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/10</span>
-                </div>
-                <!-- tags -->
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
     <!-- paginator  -->
+        <nav class="page-nav">
+            <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/">NEXT &gt;</a>
+        </nav>
 </main>
 
                 <!-- profile -->
@@ -596,15 +813,75 @@ Run server1$ hexo ...
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 5
+        Total : 17
         </div>
         <!-- search  -->
     </div>
     <div class="post-archive">
             <div class="archive-year"> 2026 </div>
             <ul class="year-list">
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/Git-%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86%E7%9A%84%E5%AE%9E%E7%94%A8%E6%96%B9%E6%B3%95/">Git 分支管理的实用方法</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/Hexo-%E4%B8%BB%E9%A2%98%E5%AE%9A%E5%88%B6%E8%B8%A9%E5%9D%91%E5%BD%95/">Hexo 主题定制踩坑录</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/Mac-%E4%B8%8A%E6%90%AD%E5%BB%BA%E9%AB%98%E6%95%88%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/">Mac 上搭建高效开发环境</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/Node-js-%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%AE%9E%E8%B7%B5/">Node.js 版本管理实践</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/Obsidian-%E5%8A%A0-Git%EF%BC%9A%E8%BD%BB%E9%87%8F%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA/">Obsidian 加 Git：轻量知识库搭建</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/VS-Code-%E8%AE%A9%E5%86%99%E4%BB%A3%E7%A0%81%E6%9B%B4%E8%88%92%E6%9C%8D/">VS Code 让写代码更舒服</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%BB%8E0%E5%88%B01%E7%9A%84%E5%86%99%E4%BD%9C%E6%B5%81%E7%A8%8B/">个人博客从 0 到 1 的写作流程</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/%E5%89%8D%E7%AB%AF%E8%B0%83%E8%AF%95%E6%B8%85%E5%8D%95%EF%BC%9A%E4%BB%8E%E6%8A%A5%E9%94%99%E5%88%B0%E4%BF%AE%E5%A4%8D/">前端调试清单：从报错到修复</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E6%97%A5%E5%BF%97%EF%BC%9A%E4%BB%8E0%E5%88%B0%E7%A8%B3%E5%AE%9A%E5%8F%91%E5%B8%83/">博客折腾日志：从 0 到稳定发布</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/%E5%A4%87%E4%BB%BD%E6%96%B9%E6%A1%88%EF%BC%9AGit-%E5%8A%A0-%E4%BA%91%E7%9B%98%E7%9A%84%E5%AE%9E%E7%94%A8%E7%BB%84%E5%90%88/">备份方案：Git 加云盘的实用组合</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%86%99%E4%BD%9C%EF%BC%9A%E6%8A%8A%E6%83%B3%E6%B3%95%E5%8F%98%E6%88%90%E6%96%87%E7%AB%A0/">程序员写作：把想法变成文章</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/11</span>
+            <a class="archive-post-title" href="/2026/10/11/%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%B8%8E-alias-%E5%AE%9E%E6%88%98/">终端配置与 alias 实战</a>
+        </li>
         <li class="archive-post-item">
             <span class="archive-post-date">10/10</span>
             <a class="archive-post-title" href="/2026/10/10/Hexo-%E5%86%99%E4%BD%9C%E4%B8%8E%E6%BA%90%E7%A0%81%E5%A4%87%E4%BB%BD%E7%9A%84%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B/">Hexo 写作与源码备份的完整流程</a>
@@ -631,9 +908,29 @@ Run server1$ hexo ...
 
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
+            <span class="sidebar-tag-name" data-tags="Git">
+                <span class="iconfont-archer">&#xe606;</span>
+                Git
+            </span>
+            <span class="sidebar-tag-name" data-tags="工作流">
+                <span class="iconfont-archer">&#xe606;</span>
+                工作流
+            </span>
+            <span class="sidebar-tag-name" data-tags="版本控制">
+                <span class="iconfont-archer">&#xe606;</span>
+                版本控制
+            </span>
             <span class="sidebar-tag-name" data-tags="Hexo">
                 <span class="iconfont-archer">&#xe606;</span>
                 Hexo
+            </span>
+            <span class="sidebar-tag-name" data-tags="主题">
+                <span class="iconfont-archer">&#xe606;</span>
+                主题
+            </span>
+            <span class="sidebar-tag-name" data-tags="踩坑">
+                <span class="iconfont-archer">&#xe606;</span>
+                踩坑
             </span>
             <span class="sidebar-tag-name" data-tags="GitHub">
                 <span class="iconfont-archer">&#xe606;</span>
@@ -651,17 +948,97 @@ Run server1$ hexo ...
                 <span class="iconfont-archer">&#xe606;</span>
                 macOS
             </span>
-            <span class="sidebar-tag-name" data-tags="随笔">
+            <span class="sidebar-tag-name" data-tags="开发环境">
                 <span class="iconfont-archer">&#xe606;</span>
-                随笔
+                开发环境
+            </span>
+            <span class="sidebar-tag-name" data-tags="工具链">
+                <span class="iconfont-archer">&#xe606;</span>
+                工具链
+            </span>
+            <span class="sidebar-tag-name" data-tags="Node.js">
+                <span class="iconfont-archer">&#xe606;</span>
+                Node.js
+            </span>
+            <span class="sidebar-tag-name" data-tags="nvm">
+                <span class="iconfont-archer">&#xe606;</span>
+                nvm
+            </span>
+            <span class="sidebar-tag-name" data-tags="JavaScript">
+                <span class="iconfont-archer">&#xe606;</span>
+                JavaScript
+            </span>
+            <span class="sidebar-tag-name" data-tags="Obsidian">
+                <span class="iconfont-archer">&#xe606;</span>
+                Obsidian
+            </span>
+            <span class="sidebar-tag-name" data-tags="知识库">
+                <span class="iconfont-archer">&#xe606;</span>
+                知识库
+            </span>
+            <span class="sidebar-tag-name" data-tags="VS Code">
+                <span class="iconfont-archer">&#xe606;</span>
+                VS Code
+            </span>
+            <span class="sidebar-tag-name" data-tags="编辑器">
+                <span class="iconfont-archer">&#xe606;</span>
+                编辑器
+            </span>
+            <span class="sidebar-tag-name" data-tags="提效">
+                <span class="iconfont-archer">&#xe606;</span>
+                提效
             </span>
             <span class="sidebar-tag-name" data-tags="博客">
                 <span class="iconfont-archer">&#xe606;</span>
                 博客
             </span>
-            <span class="sidebar-tag-name" data-tags="踩坑">
+            <span class="sidebar-tag-name" data-tags="写作">
                 <span class="iconfont-archer">&#xe606;</span>
-                踩坑
+                写作
+            </span>
+            <span class="sidebar-tag-name" data-tags="前端">
+                <span class="iconfont-archer">&#xe606;</span>
+                前端
+            </span>
+            <span class="sidebar-tag-name" data-tags="调试">
+                <span class="iconfont-archer">&#xe606;</span>
+                调试
+            </span>
+            <span class="sidebar-tag-name" data-tags="维护">
+                <span class="iconfont-archer">&#xe606;</span>
+                维护
+            </span>
+            <span class="sidebar-tag-name" data-tags="折腾">
+                <span class="iconfont-archer">&#xe606;</span>
+                折腾
+            </span>
+            <span class="sidebar-tag-name" data-tags="云盘">
+                <span class="iconfont-archer">&#xe606;</span>
+                云盘
+            </span>
+            <span class="sidebar-tag-name" data-tags="随笔">
+                <span class="iconfont-archer">&#xe606;</span>
+                随笔
+            </span>
+            <span class="sidebar-tag-name" data-tags="个人成长">
+                <span class="iconfont-archer">&#xe606;</span>
+                个人成长
+            </span>
+            <span class="sidebar-tag-name" data-tags="学习">
+                <span class="iconfont-archer">&#xe606;</span>
+                学习
+            </span>
+            <span class="sidebar-tag-name" data-tags="Shell">
+                <span class="iconfont-archer">&#xe606;</span>
+                Shell
+            </span>
+            <span class="sidebar-tag-name" data-tags="zsh">
+                <span class="iconfont-archer">&#xe606;</span>
+                zsh
+            </span>
+            <span class="sidebar-tag-name" data-tags="命令行">
+                <span class="iconfont-archer">&#xe606;</span>
+                命令行
             </span>
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
